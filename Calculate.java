@@ -9,5 +9,7 @@ public class Calculate {
 		System.out.println("Произведение = " + s);
 		s = f1/f2;
 		System.out.println("Частное = " + s);
+		s = f1*f1*f1*f1*f1;
+		System.out.println("Возведение в степень = " + s);
 	}
 }
