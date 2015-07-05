@@ -20,7 +20,7 @@ public class CalculatorTest {
     @Test
     public void testDiv() throws Exception {
         Calculator calculator = new Calculator();
-        calculator.div(10, 5);
-        assertEquals(2, calculator.getResult());
+        calculator.div(10, 2);
+        assertEquals(5, calculator.getResult());
     }
 }
