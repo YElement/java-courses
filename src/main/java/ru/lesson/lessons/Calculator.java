@@ -29,11 +29,12 @@ public class Calculator {
 	public void div(int ... args) /*throws UserException*/ {
 		if (args.length > 0) {
 			this.result = args[0];
-			for (int params : args) {
-				if (params == 0) {
+			for (int i=1; i<args.length; i++)
+			{
+				if (args[i] == 0) {
 					throw new IllegalArgumentException("You try to div by 0. Please change arg!");
 				}
-				this.result /= params;
+				this.result /= args[i];
 			}
 		} /*else {
 			throw new UserException("You should enter args!");

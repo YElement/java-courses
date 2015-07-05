@@ -13,8 +13,8 @@ public class CalculatorTest {
     @Test
     public void testAdd() throws Exception {
         Calculator calculator = new Calculator();
-        calculator.add(1, 1);
-        assertEquals(2, calculator.getResult());
+        calculator.add(8, 1);
+        assertEquals(9, calculator.getResult());
     }
 
     @Test
