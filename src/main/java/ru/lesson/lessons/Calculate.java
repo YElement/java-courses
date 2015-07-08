@@ -5,7 +5,7 @@ public class Calculate {
 		int f1 = Integer.valueOf(arg[0]);
 		double f2 = Double.valueOf(arg[1]);
 		double s = f1+f2;
-		System.out.println("Сумма = " + s);
+		System.out.println("Sum = " + s);
 		s = f1-f2;
 		System.out.println("Разница = " + s);
 		s = f1*f2;
